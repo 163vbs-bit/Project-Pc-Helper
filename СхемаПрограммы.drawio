@@ -1,0 +1,54 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Пользовательский интерфейс" id="ui-v1">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="Пользовательский интерфейс версии 1.0" style="text;html=1;fontSize=24;fontStyle=1;strokeColor=none;fillColor=none" vertex="1" parent="1"><mxGeometry x="280" y="30" width="520" height="40" as="geometry"/></mxCell>
+        <mxCell id="window" value="Главное окно Tkinter&#xa;Панель управления&#xa;400 x 400" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;fontStyle=1" vertex="1" parent="1"><mxGeometry x="390" y="100" width="320" height="120" as="geometry"/></mxCell>
+        <mxCell id="buttons" value="6 кнопок управления" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=16" vertex="1" parent="1"><mxGeometry x="460" y="270" width="180" height="120" as="geometry"/></mxCell>
+        <mxCell id="b1" value="Открыть браузер" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14" vertex="1" parent="1"><mxGeometry x="80" y="460" width="160" height="60" as="geometry"/></mxCell>
+        <mxCell id="b2" value="Открыть YouTube" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14" vertex="1" parent="1"><mxGeometry x="260" y="460" width="160" height="60" as="geometry"/></mxCell>
+        <mxCell id="b3" value="Открыть проводник" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14" vertex="1" parent="1"><mxGeometry x="440" y="460" width="160" height="60" as="geometry"/></mxCell>
+        <mxCell id="b4" value="Перезагрузить компьютер" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14" vertex="1" parent="1"><mxGeometry x="620" y="460" width="190" height="60" as="geometry"/></mxCell>
+        <mxCell id="b5" value="Выключить компьютер" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14" vertex="1" parent="1"><mxGeometry x="830" y="460" width="180" height="60" as="geometry"/></mxCell>
+        <mxCell id="b6" value="Выход" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14" vertex="1" parent="1"><mxGeometry x="1030" y="460" width="110" height="60" as="geometry"/></mxCell>
+        <mxCell id="status" value="Строка состояния: Выберите действие" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#666666;fontSize=14" vertex="1" parent="1"><mxGeometry x="395" y="590" width="310" height="60" as="geometry"/></mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="window" target="buttons" style="endArrow=block;html=1;rounded=0"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="buttons" target="b1" style="endArrow=block;html=1;rounded=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="buttons" target="b2" style="endArrow=block;html=1;rounded=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="buttons" target="b3" style="endArrow=block;html=1;rounded=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="buttons" target="b4" style="endArrow=block;html=1;rounded=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="buttons" target="b5" style="endArrow=block;html=1;rounded=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="buttons" target="b6" style="endArrow=block;html=1;rounded=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="window" target="status" style="endArrow=block;html=1;rounded=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Внутренняя логика" id="logic-v1">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="ltitle" value="Внутренняя логика версии 1.0" style="text;html=1;fontSize=24;fontStyle=1;strokeColor=none;fillColor=none" vertex="1" parent="1"><mxGeometry x="330" y="30" width="440" height="40" as="geometry"/></mxCell>
+        <mxCell id="start" value="Запуск 2пр.py" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16" vertex="1" parent="1"><mxGeometry x="450" y="90" width="180" height="70" as="geometry"/></mxCell>
+        <mxCell id="init" value="Инициализация Tkinter&#xa;создание окна и стилей" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14" vertex="1" parent="1"><mxGeometry x="410" y="200" width="260" height="70" as="geometry"/></mxCell>
+        <mxCell id="bind" value="Создание кнопок&#xa;и привязка команд" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14" vertex="1" parent="1"><mxGeometry x="410" y="310" width="260" height="70" as="geometry"/></mxCell>
+        <mxCell id="wait" value="Ожидание действия пользователя" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14" vertex="1" parent="1"><mxGeometry x="425" y="420" width="230" height="120" as="geometry"/></mxCell>
+        <mxCell id="web" value="Браузер / YouTube&#xa;webbrowser.open(url)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14" vertex="1" parent="1"><mxGeometry x="60" y="610" width="220" height="70" as="geometry"/></mxCell>
+        <mxCell id="explorer" value="Проводник&#xa;os.startfile / open / xdg-open" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14" vertex="1" parent="1"><mxGeometry x="310" y="610" width="240" height="70" as="geometry"/></mxCell>
+        <mxCell id="confirm" value="Выключение / перезагрузка&#xa;диалог подтверждения" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14" vertex="1" parent="1"><mxGeometry x="590" y="610" width="250" height="70" as="geometry"/></mxCell>
+        <mxCell id="exit" value="Выход&#xa;root.destroy()" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14" vertex="1" parent="1"><mxGeometry x="880" y="610" width="180" height="70" as="geometry"/></mxCell>
+        <mxCell id="shutdown" value="Команда ОС&#xa;Windows: shutdown /s или /r /t 5&#xa;macOS/Linux: sudo shutdown" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14" vertex="1" parent="1"><mxGeometry x="560" y="730" width="310" height="80" as="geometry"/></mxCell>
+        <mxCell id="le1" edge="1" parent="1" source="start" target="init" style="endArrow=block;html=1;rounded=0"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="le2" edge="1" parent="1" source="init" target="bind" style="endArrow=block;html=1;rounded=0"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="le3" edge="1" parent="1" source="bind" target="wait" style="endArrow=block;html=1;rounded=0"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="le4" edge="1" parent="1" source="wait" target="web" style="endArrow=block;html=1;rounded=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="le5" edge="1" parent="1" source="wait" target="explorer" style="endArrow=block;html=1;rounded=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="le6" edge="1" parent="1" source="wait" target="confirm" style="endArrow=block;html=1;rounded=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="le7" edge="1" parent="1" source="wait" target="exit" style="endArrow=block;html=1;rounded=1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="le8" edge="1" parent="1" source="confirm" target="shutdown" style="endArrow=block;html=1;rounded=0"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
